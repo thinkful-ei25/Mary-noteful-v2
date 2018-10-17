@@ -2,7 +2,7 @@
 
 const knex = require('../knex');
 
-let searchTerm = 'gaga';
+let searchTerm = 'boring';
 knex
   .select('notes.id', 'title', 'content')
   .from('notes')
